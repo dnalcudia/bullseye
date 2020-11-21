@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6060BB822569036F0060E48E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6060BB812569036F0060E48E /* AboutView.swift */; };
 		60788A3F2561F66200DE97B1 /* BullseyeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60788A3E2561F66200DE97B1 /* BullseyeApp.swift */; };
 		60788A412561F66200DE97B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60788A402561F66200DE97B1 /* ContentView.swift */; };
 		60788A432561F66300DE97B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60788A422561F66300DE97B1 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6060BB812569036F0060E48E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
 		60788A3B2561F66200DE97B1 /* Bullseye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bullseye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60788A3E2561F66200DE97B1 /* BullseyeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BullseyeApp.swift; sourceTree = "<group>"; };
 		60788A402561F66200DE97B1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			children = (
 				60788A3E2561F66200DE97B1 /* BullseyeApp.swift */,
 				60788A402561F66200DE97B1 /* ContentView.swift */,
+				6060BB812569036F0060E48E /* AboutView.swift */,
 				60788A422561F66300DE97B1 /* Assets.xcassets */,
 				60788A472561F66300DE97B1 /* Info.plist */,
 				60788A442561F66300DE97B1 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60788A412561F66200DE97B1 /* ContentView.swift in Sources */,
+				6060BB822569036F0060E48E /* AboutView.swift in Sources */,
 				60788A3F2561F66200DE97B1 /* BullseyeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
