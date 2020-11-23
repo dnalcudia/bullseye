@@ -113,7 +113,7 @@ struct ContentView: View {
                 Text("Round:").modifier(LabelStyle())
                 Text("\(round)").modifier(LabelStyle())
                 Spacer()
-                Button(action: {}) {
+                NavigationLink(destination: AboutView()) {
                     HStack {
                         Image("InfoIcon")
                         Text("Info").modifier(ButtonSmallTextStyle())
@@ -126,6 +126,7 @@ struct ContentView: View {
         }
         .background(Image("Background"), alignment: .center)
         .accentColor(midnightBlue)
+        .navigationBarTitle("Bullseye")
     }
     
     func sliderValueRounded() -> Int {
